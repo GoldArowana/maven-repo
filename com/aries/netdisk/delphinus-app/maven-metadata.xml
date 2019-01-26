@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.aries.netdisk</groupId>
-  <artifactId>Delphinus-NetDisk</artifactId>
+  <artifactId>delphinus-app</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190126033451</lastUpdated>
+    <lastUpdated>20190126033530</lastUpdated>
   </versioning>
 </metadata>
