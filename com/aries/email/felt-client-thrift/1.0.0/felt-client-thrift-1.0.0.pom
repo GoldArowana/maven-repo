@@ -9,9 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>felt-service-thrift</artifactId>
+    <artifactId>felt-client-thrift</artifactId>
 
-    <name>felt-service-thrift</name>
+    <name>felt-client-thrift</name>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -21,20 +22,20 @@
     <dependencies>
         <dependency>
             <groupId>com.aries.email</groupId>
-            <artifactId>felt-bll</artifactId>
-            <version>${project.parent.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.aries.email</groupId>
             <artifactId>felt-contract-thrift</artifactId>
             <version>${project.parent.version}</version>
             <optional>true</optional>
         </dependency>
-
+        <dependency>
+            <groupId>com.aries.email</groupId>
+            <artifactId>felt-service-thrift</artifactId>
+            <version>${project.parent.version}</version>
+            <optional>true</optional>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
         </dependency>
     </dependencies>
+
 </project>
