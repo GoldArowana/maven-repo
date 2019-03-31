@@ -9,10 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>felt-sal</artifactId>
+    <artifactId>felt-bll</artifactId>
 
-    <name>felt-sal</name>
-
+    <name>felt-bll</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -22,7 +21,12 @@
     <dependencies>
         <dependency>
             <groupId>com.aries.email</groupId>
-            <artifactId>felt-core</artifactId>
+            <artifactId>felt-dal</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.aries.email</groupId>
+            <artifactId>felt-sal</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
         <dependency>
