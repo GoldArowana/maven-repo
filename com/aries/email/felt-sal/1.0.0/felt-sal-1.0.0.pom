@@ -9,9 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>felt-dal</artifactId>
+    <artifactId>felt-sal</artifactId>
 
-    <name>felt-dal</name>
+    <name>felt-sal</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,5 +30,4 @@
             <artifactId>junit</artifactId>
         </dependency>
     </dependencies>
-
 </project>
