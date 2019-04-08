@@ -1,4 +1,5 @@
 # maven-repo
+## 使用方式
 
 在父pom中引入：
 ```xml
