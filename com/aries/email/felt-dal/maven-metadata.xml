@@ -3,10 +3,9 @@
   <groupId>com.aries.email</groupId>
   <artifactId>felt-dal</artifactId>
   <versioning>
-    <release>1.0.0</release>
     <versions>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190331091145</lastUpdated>
+    <lastUpdated>20190423064955</lastUpdated>
   </versioning>
 </metadata>
