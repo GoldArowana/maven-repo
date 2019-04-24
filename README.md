@@ -19,7 +19,7 @@
             <dependency>
                 <groupId>com.aries.maven</groupId>
                 <artifactId>aries-dependency</artifactId>
-                <version>1.0-SNAPSHOT</version>
+                <version>1.0.2-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
