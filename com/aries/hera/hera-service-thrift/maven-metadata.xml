@@ -4,8 +4,8 @@
   <artifactId>hera-service-thrift</artifactId>
   <versioning>
     <versions>
-      <version>1.0.1-SNAPSHOT</version>
+      <version>1.0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190429172401</lastUpdated>
+    <lastUpdated>20190430021119</lastUpdated>
   </versioning>
 </metadata>
